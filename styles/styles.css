@@ -4,7 +4,7 @@ aside {
   margin: 1em;
   border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here? */
   padding: 1em;
-  background-color: #eee;
+  background-color: #4d1515;
   color: #f5eaea;
   text-align: center;
 }
