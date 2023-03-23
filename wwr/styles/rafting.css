@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Source+Serif+Pro&display=swap');
+:root {
+    --primary-color: #669BBC;
+    --secondary-color: #FDF0D5;
+    --accent1-color: #0f0304;
+    --accent2-color: #003049;
+
+    --heading-font: 'Source Serif Pro', serif;
+    --paragraph-font: 'Cardo', serif;
+  
+    --nav-background-color: #fffefc;
+    --nav-link-color: #9ec2d8;
+    --nav-hover-link-color: #474343;
+    --nav-hover-background-color: #6a8391;
+  }
+
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 430px;
+    padding: 20px;
+  }
+  h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  div {
+    position: relative;
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here? */
+    padding: 1em;
+    background-color: #1a1414;
+    color: #eaf5f5;
+    text-align: center;
+  }
+
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  h1{ 
+    position: absolute;
+    top: 40px;
+  left: 100px;
+   }
+   
+   article{ 
+    position: absolute;
+    top: 40px;
+  left: 100px;
+   }  
+
+   article img {
+    /* you most likely will have other declarations here */
+    float: right;
+  }
+   
+ box {
+  margin: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  background-color: #eac7e4;
+  color: #000;
+} 
+
+    
