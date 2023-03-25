@@ -42,7 +42,7 @@ aside {
  h2{ 
   position: absolute;
   top: 110px;
-left: 90px;
+left: 110px;
  }
 
  /* Class Selectors */
@@ -62,7 +62,7 @@ main img {
 aside h2 {
   position: relative;
   top: 110px;
-  left: 90px;
+  left: 110px;
 }
 
 nav {
