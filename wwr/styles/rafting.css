@@ -141,7 +141,7 @@ figcaption {background-color: #222;
 }
 
 nav {
-  background-color: rgb(178, 70, 180);
+  background-color: rgb(27, 36, 82);
   padding: 1rem;
   display: flex;
   justify-content: space-evenly;
@@ -154,7 +154,7 @@ nav a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
-  color: #9abadb; 
+  color: #f3f3f0; 
 }
 
 .sociallinks {
