@@ -49,7 +49,7 @@
    
    article{ 
     position: absolute;
-    top: 40px;
+    top: 30px;
   left: 100px;
    }  
 
@@ -136,13 +136,13 @@ figcaption {background-color: #222;
   text-align: center;
 }
 
-* {
+.sociallinks {
   box-sizing: border-box;
 }
 
 .sociallinks {
   width: 80%;
-  height: 500px;
+  height: 200px;
   border: 1px solid;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -151,3 +151,4 @@ figcaption {background-color: #222;
   justify-items: end;
   grid-gap:10px ;
 }
+
