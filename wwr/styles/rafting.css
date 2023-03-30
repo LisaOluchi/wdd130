@@ -16,7 +16,7 @@
 
   body {
     font-family: var(--paragraph-font);
-    max-width: 430px;
+    max-width: 930px;
     padding: 20px;
   }
   h1, h2 {
@@ -24,14 +24,9 @@
     color: var(--primary-color);
   }
 
-  div {
+  div.hero {
     position: relative;
-    width: 20em;
-    margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here? */
-    padding: 1em;
-    background-color: #1a1414;
-    color: #eaf5f5;
+    width: 100%;
     text-align: center;
   }
 
@@ -41,21 +36,24 @@
     height: auto;
   }
 
-  h1{ 
+  .hero h1{ 
     position: absolute;
-    top: 40px;
-  right: 100px;
+    top: 21px;
+  left: 287px;
+  color: #2a2d2ceb;
    }
    
    article{ 
     position: absolute;
-    top: 30px;
-  left: 100px;
+    top: 195px;
+  right: 100px;
+  background-color: #7b9c66;
    }  
 
-   article img {
+   .hero article img {
     /* you most likely will have other declarations here */
     float: right;
+    width: 190px
   }
    
  box {
@@ -124,31 +122,30 @@ figure {
   margin: auto;
 }
 
-img {
-  max-width: 220px;
+ .images img {
+  max-width: 500px;
   max-height: 150px;
 }
 
-figcaption {background-color: #222;
+figcaption {background-color: #528a5f;
   color: #fff;
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
 }
 
-.sociallinks {
-  box-sizing: border-box;
+.sociallinks{
+  float: right;
 }
 
 .sociallinks {
-  width: 80%;
-  height: 200px;
-  border: 1px solid;
-  display: grid;
+  width: 50%;
+  height: 100px;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: minmax(90px,auto);
   justify-content: end;
   justify-items: end;
   grid-gap:10px ;
+  align-content: end;
 }
 
