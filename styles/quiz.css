@@ -9,7 +9,7 @@
   body{
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     background-color: beige;
   }
 
@@ -21,7 +21,7 @@
   h1{
     margin: 1px;
     font-size: medium;
-    color: aliceblue;
+    color: rgb(17, 17, 18);
     text-align: center;
   }
 
